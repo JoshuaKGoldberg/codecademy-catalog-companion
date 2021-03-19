@@ -1,15 +1,23 @@
 {
+  "author": "Josh Goldberg <me@joshuakgoldberg.com>",
+  "dependencies": {
+    "chance": "^1.1.7",
+    "lodash": "^4.17.21",
+    "next": "10.0.8",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-lines-ellipsis": "^0.14.1",
+    "react-markdown": "^5.0.3",
+    "react-syntax-highlighter": "15.4.3",
+    "react-virtualized": "^9.22.3"
+  },
+  "description": "Companion code for the Crashing the Codecademy Catalog talk ✨",
+  "license": "MIT",
   "name": "codecademy-catalog-companion",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
-  "dependencies": {
-    "next": "10.0.8",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  }
+  "version": "0.1.0"
 }

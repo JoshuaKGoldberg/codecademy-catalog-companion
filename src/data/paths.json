@@ -1,0 +1,172 @@
+{
+  "bash-path": {
+    "description": "The Bash path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "fcc2307d-931f-5c69-a7c9-130bc8f06997",
+    "image": "bash",
+    "name": "Bash Path",
+    "preview": "Velit deserunt dolore commodo aliquip. Sit sint incididunt magna cupidatat sint qui anim labore do amet minim excepteur. Enim ullamco cupidatat ipsum sint occaecat et qui anim nulla qui velit ullamco. Id est duis velit proident nisi fugiat velit sit laboris elit cupidatat. Ullamco consectetur reprehenderit commodo enim consequat minim ipsum do in consectetur exercitation eiusmod. Eu laborum ullamco id exercitation qui voluptate qui esse exercitation in sit et. Excepteur mollit eu in culpa culpa qui ullamco nisi qui voluptate.",
+    "pro": true,
+    "tags": ["bash", "backend"],
+    "slug": "bash-path"
+  },
+  "csharp-path": {
+    "description": "The C# path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "14e40a12-a197-5dca-ad7a-6e0a13abbb16",
+    "image": "csharp",
+    "name": "C# Path",
+    "preview": "Consectetur mollit sunt ad cillum voluptate tempor ullamco voluptate sunt quis. Minim est nostrud adipisicing proident qui. Officia nulla magna Lorem culpa quis dolor reprehenderit adipisicing officia incididunt ut cillum. Sunt ad aliquip non eu Lorem dolor.",
+    "pro": true,
+    "tags": ["csharp", "backend"],
+    "slug": "csharp-path"
+  },
+  "css-path": {
+    "description": "The CSS path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "cde93e7d-7f74-587d-9f82-de51eb946d9f",
+    "image": "css",
+    "name": "CSS Path",
+    "preview": "Eu ipsum magna proident amet laborum anim ex officia laborum nisi. Enim ullamco non elit elit ex velit sit ut labore qui Lorem. Ea duis Lorem aute amet ex nostrud quis qui excepteur tempor. Non aliqua reprehenderit dolore ex sint ullamco commodo ullamco id fugiat eu do ad. Occaecat proident excepteur consectetur enim esse cillum magna est. Ea irure cillum quis dolor sint laborum aliquip ex eiusmod eiusmod velit magna quis.",
+    "pro": true,
+    "tags": ["css", "frontend"],
+    "slug": "css-path"
+  },
+  "go-path": {
+    "description": "The Go path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "5a74da24-9772-5f36-a3bc-5dbb9f8fbaf5",
+    "image": "go",
+    "name": "Go Path",
+    "preview": "Officia et est ipsum consequat minim officia minim dolore quis nulla ut amet exercitation. Eiusmod ea ea enim aliqua adipisicing non duis. Mollit amet est laborum laborum cupidatat incididunt aute esse ipsum eu nulla nostrud nostrud. Qui do sunt cupidatat irure occaecat minim nulla laborum magna excepteur ea excepteur. Est sint adipisicing officia irure incididunt mollit elit.",
+    "pro": true,
+    "tags": ["go", "backend"],
+    "slug": "go-path"
+  },
+  "html-path": {
+    "description": "The Html path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "d147fd73-0019-5a02-9050-20dcec9891ae",
+    "image": "html",
+    "name": "Html Path",
+    "preview": "Et enim duis dolore et ad voluptate aliqua labore. Occaecat nostrud id consectetur et exercitation sint veniam anim. Cillum in in duis nisi cillum ipsum sint.",
+    "pro": true,
+    "tags": ["html", "frontend"],
+    "slug": "html-path"
+  },
+  "java-path": {
+    "description": "The Java path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "dde05d65-7455-50af-8f91-a2f95ae43690",
+    "image": "java",
+    "name": "Java Path",
+    "preview": "Sit veniam cupidatat cillum aliqua quis esse nisi nulla consequat. Ipsum velit et cillum et magna eiusmod occaecat exercitation non anim reprehenderit incididunt. Aliqua ullamco veniam adipisicing non sint id. Adipisicing non eu et et in ut. Cupidatat officia proident aute ex esse id sit laborum ullamco. Nulla qui mollit aliqua commodo cupidatat nostrud reprehenderit ipsum elit veniam nulla et adipisicing.",
+    "pro": true,
+    "tags": ["java", "backend"],
+    "slug": "java-path"
+  },
+  "javascript-path": {
+    "description": "The Javascript path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "51987b82-e286-512b-8ac7-d446f5b6afe0",
+    "image": "javascript",
+    "name": "Javascript Path",
+    "preview": "Sit aliqua proident reprehenderit non anim ullamco esse occaecat aliquip proident qui officia dolore. Eu aliquip ea amet dolor occaecat dolor ipsum ut. Ullamco aute et aute duis.",
+    "pro": true,
+    "tags": ["javascript", "frontend", "backend"],
+    "slug": "javascript-path"
+  },
+  "kotlin-path": {
+    "description": "The Kotlin path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "9e827157-f7b8-52ad-ba2d-966f1c3c791b",
+    "image": "kotlin",
+    "name": "Kotlin Path",
+    "preview": "Ex consequat velit ut sit aliqua nisi laborum ad voluptate pariatur deserunt. Ea eiusmod qui ad ut do sunt culpa irure pariatur pariatur eiusmod sint adipisicing sunt. Qui sint cillum commodo sunt id.",
+    "pro": true,
+    "tags": ["kotlin", "mobile"],
+    "slug": "kotlin-path"
+  },
+  "node-path": {
+    "description": "The Node path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "c310477c-a249-52cb-8825-744b1889625c",
+    "image": "node",
+    "name": "Node Path",
+    "preview": "Elit aute veniam est irure. Aliquip officia consectetur elit anim veniam magna velit in cupidatat et cupidatat ipsum nulla non. Nulla mollit cupidatat aliqua anim laborum. Incididunt sunt veniam voluptate ullamco enim laboris est aliqua aute cupidatat anim. Cupidatat laborum ipsum nisi pariatur. Velit consectetur non minim sint. Exercitation veniam excepteur ipsum cillum irure esse et.",
+    "pro": true,
+    "tags": ["node", "backend"],
+    "slug": "node-path"
+  },
+  "php-path": {
+    "description": "The PHP path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "84e93480-ef0a-5e4b-8298-b2e6a59f0dd3",
+    "image": "php",
+    "name": "PHP Path",
+    "preview": "Non labore cupidatat ad tempor. Magna ex laborum pariatur anim consequat elit duis laborum. Aute mollit dolor cillum laboris commodo id ex quis veniam eu ipsum cillum veniam sit. Occaecat aliquip non eu id et consectetur ullamco ipsum nulla. Dolor qui eiusmod non dolore. Occaecat consequat dolor laboris magna in fugiat.",
+    "pro": true,
+    "tags": ["php", "backend"],
+    "slug": "php-path"
+  },
+  "python-path": {
+    "description": "The Python path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "deea048d-9cc8-5213-9fde-22d576ed5e84",
+    "image": "python",
+    "name": "Python Path",
+    "preview": "Sunt aliqua ullamco consectetur pariatur Lorem nulla aliquip dolore nulla. Do eu eu eu ea dolore veniam sint laboris nisi. Et consequat voluptate anim consectetur laboris do qui minim eiusmod labore veniam culpa ut velit. Fugiat laboris non consectetur nostrud reprehenderit dolor deserunt. Elit aliquip ex ea aliquip ut exercitation ea esse et mollit quis. Do ut dolor reprehenderit laborum adipisicing fugiat ipsum minim in sint velit esse non duis.",
+    "pro": true,
+    "tags": ["python", "backend", "data"],
+    "slug": "python-path"
+  },
+  "r-path": {
+    "description": "The R path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "8fcc6183-df87-5802-8e12-98fe5bae4476",
+    "image": "r",
+    "name": "R Path",
+    "preview": "Anim ipsum ut quis occaecat laboris exercitation mollit mollit laborum labore dolore nostrud enim. Ipsum mollit ut commodo ad consectetur enim ex officia ipsum. Fugiat elit commodo tempor quis veniam culpa cupidatat dolor do. Deserunt deserunt non irure ut aliquip magna duis do dolor laboris. Nisi fugiat consequat laborum laboris duis reprehenderit occaecat et quis dolor consequat laboris fugiat aliqua. Ad cillum ex cillum amet cupidatat anim ad dolore nulla. Nostrud laborum mollit irure ut incididunt consectetur consequat do sit.",
+    "pro": true,
+    "tags": ["r", "data"],
+    "slug": "r-path"
+  },
+  "ruby-path": {
+    "description": "The Ruby path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "bdc864ae-4adb-537f-8f17-50e9481c7094",
+    "image": "ruby",
+    "name": "Ruby Path",
+    "preview": "Ipsum laborum pariatur adipisicing Lorem exercitation magna aliqua tempor non labore culpa et deserunt ullamco. Dolore dolore cillum non cillum irure quis excepteur fugiat ut. Elit anim cupidatat non sint cupidatat aliquip id. Officia aute mollit anim est sint eiusmod irure. Laboris dolor amet ullamco Lorem deserunt in irure. Ut dolore exercitation sunt ipsum quis ex nisi laborum incididunt excepteur ut commodo.",
+    "pro": true,
+    "tags": ["ruby", "backend"],
+    "slug": "ruby-path"
+  },
+  "sass-path": {
+    "description": "The Sass path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "5bdeb665-0bfa-5164-a8d3-8dc91d27d76d",
+    "image": "sass",
+    "name": "Sass Path",
+    "preview": "Voluptate ullamco sunt ut nulla irure magna in quis ad laborum. Commodo commodo sint sit enim id tempor minim incididunt laborum laboris ad eu reprehenderit anim. Voluptate amet non est officia ea officia aliquip amet magna. Anim consectetur magna velit fugiat pariatur incididunt aliqua culpa quis commodo aliquip enim consequat. Veniam Lorem ex laborum exercitation consequat nulla sit sunt id et.",
+    "pro": true,
+    "tags": ["sass", "frontend"],
+    "slug": "sass-path"
+  },
+  "sql-path": {
+    "description": "The SQL path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "9c4c8714-7391-5856-b277-9fd63f14fa05",
+    "image": "sql",
+    "name": "SQL Path",
+    "preview": "Voluptate in velit mollit duis do ipsum reprehenderit enim magna anim aliquip cupidatat. Velit Lorem voluptate do commodo labore. Commodo cupidatat aliquip sint aliquip quis Lorem.",
+    "pro": true,
+    "tags": ["sql", "backend", "data"],
+    "slug": "sql-path"
+  },
+  "swift-path": {
+    "description": "The Swift path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "f19736a5-ce49-5cc8-81d0-69c3d653675a",
+    "image": "swift",
+    "name": "Swift Path",
+    "preview": "Voluptate ullamco esse cillum ut excepteur laboris aliqua commodo aliquip aliqua proident. Veniam minim labore ad laboris nulla. Exercitation reprehenderit aliqua occaecat velit deserunt Lorem qui veniam. Mollit do amet reprehenderit sit tempor qui in veniam culpa ex. Pariatur culpa pariatur tempor est consectetur sit proident commodo tempor duis magna.",
+    "pro": true,
+    "tags": ["swift", "backend", "mobile"],
+    "slug": "swift-path"
+  },
+  "typescript-path": {
+    "description": "The TypeScript path will take you from absolute beginner to glorious novice through a set of courses.",
+    "id": "24bd08ed-27eb-52b3-8249-24f4981b55b1",
+    "image": "typescript",
+    "name": "TypeScript Path",
+    "preview": "Ipsum aliquip nostrud irure consequat eu Lorem. Incididunt commodo culpa officia et nisi minim ut quis pariatur eu nisi proident cupidatat duis. Velit velit dolor ipsum ea Lorem do in veniam velit do Lorem veniam anim sit. Voluptate minim pariatur dolore reprehenderit dolor enim eiusmod. Lorem proident commodo proident labore quis excepteur elit duis enim sit labore. Consectetur excepteur commodo excepteur exercitation culpa esse nostrud. Nostrud nostrud culpa cupidatat cupidatat nostrud deserunt nulla laboris aute ullamco ullamco officia.",
+    "pro": true,
+    "tags": ["typescript", "frontend", "backend"],
+    "slug": "typescript-path"
+  }
+}
