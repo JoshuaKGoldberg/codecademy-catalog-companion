@@ -5,12 +5,13 @@ import { Grid } from "~/components/Grid";
 import { PageContainer } from "~/components/PageContainer";
 import { getCourses, getPaths } from "~/data/api";
 
-
 export default function PageSize({ paths }) {
   const [courses, setCourses] = useState();
 
   useEffect(() => {
-    getCourses().then(setCourses);
+    setTimeout(() => {
+      getCourses().then(setCourses);
+    }, 3000);
   }, []);
 
   return (
