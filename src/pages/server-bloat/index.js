@@ -7,7 +7,7 @@ import { getCourses, getPaths } from "~/data/api";
 
 export default function PageSize({ courses, paths }) {
   return (
-    <PageContainer title="Problem: Page Bloat">
+    <PageContainer title="Problem: Page Bloat 😟">
       <p>
         This page is <em>huge</em>! It has a ton of "card" displays for paths
         and courses. The JSON data used as props is itself pretty massive.

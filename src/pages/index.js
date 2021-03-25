@@ -1,39 +1,53 @@
 import Head from "next/head";
+import { MainArea } from "~/components/MainArea";
+
+import styles from "./index.module.css";
 
 const pages = {
+  "Server Bloat":
+    "This page has a ton of components in it and takes a long time on the server to process their data.",
+  "Script Bloat":
+    "A very large amount of JavaScript is loaded in this page. One would say an excessive, unnecessary amount",
   "Component Bloat":
     "This page shows a component with a lot of dependencies: so many, in fact, that it slows down the initial page load.",
-  "Page Bloat":
-    "This page has a ton of components in it and takes a long time on the server to process their data.",
 };
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Codecademy Catalog Companion</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <MainArea>
         <h1>Hello, world!</h1>
         <p>
           You've gotten the Codecademy Catalog Companion app running locally.
           Nice.
         </p>
         <p>
-          Here are the separate pages you can look at with some performance
-          issues:
+          Each of these pages have a key performance issue you can look at in
+          the _issue_ link and a fix implemented in the _fixed_ link:
         </p>
-        <ul>
-          {Object.entries(pages).map(([name, description]) => (
-            <li key={name}>
-              <strong>{name}: </strong>
+        {Object.entries(pages).map(([name, description]) => {
+          const linkBase = name.toLowerCase().replace(" ", "-");
+          return (
+            <article className={styles.article} key={name}>
+              <h2>{name}</h2>
               {description}
-            </li>
-          ))}
-        </ul>
-      </main>
-    </div>
+              <div className={styles.links}>
+                <a href={linkBase} target="_blank">
+                  issue
+                </a>
+                <a href={linkBase + "-fixed"} target="_blank">
+                  fixed
+                </a>
+              </div>
+            </article>
+          );
+        })}
+      </MainArea>
+    </>
   );
 }

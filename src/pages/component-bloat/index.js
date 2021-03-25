@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import ExpensiveComponent from "~/components/ExpensiveComponent";
+import { PageContainer } from "~/components/PageContainer";
 
 export default function ComponentBloat() {
   const [showing, setShowing] = useState(false);
 
   return (
-    <div>
-      <h1>Hello, world!</h1>
+    <PageContainer title="Problem: Component Bloat 😟">
       <p>
         This page shows a component with a lot of dependencies: so many, in
         fact, that it slows down the initial page load.
@@ -18,6 +18,6 @@ export default function ComponentBloat() {
           Show Component
         </button>
       )}
-    </div>
+    </PageContainer>
   );
 }

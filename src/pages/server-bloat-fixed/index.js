@@ -15,10 +15,11 @@ export default function PageSize({ paths }) {
   }, []);
 
   return (
-    <PageContainer title="Problem: Page Bloat">
+    <PageContainer title="Server Bloat: Fixed 😊">
       <p>
-        This page is <em>huge</em>! It has a ton of "card" displays for paths and courses. The JSON
-        data used as props is itself pretty massive.
+        This page is still big, but we don't need to load or render the giant
+        list of courses till later. That makes the initial page load much
+        better.
       </p>
       <hr />
       <h2>Paths</h2>

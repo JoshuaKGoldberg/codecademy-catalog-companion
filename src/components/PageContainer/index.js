@@ -1,11 +1,11 @@
 import Link from "next/link";
 import React from "react";
 
-import styles from "./styles.module.css";
+import { MainArea } from "../MainArea";
 
 export const PageContainer = ({ children, title }) => {
   return (
-    <div className={styles.pageContainer}>
+    <MainArea>
       <header>
         <Link href="/">Go Back</Link>
       </header>
@@ -13,6 +13,6 @@ export const PageContainer = ({ children, title }) => {
         <h1>{title}</h1>
         {children}
       </main>
-    </div>
+    </MainArea>
   );
 };

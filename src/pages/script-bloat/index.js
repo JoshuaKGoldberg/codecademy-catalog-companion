@@ -1,6 +1,8 @@
 import Head from "next/head";
 import React from "react";
 
+import { PageContainer } from "~/components/PageContainer";
+
 export default function ScriptBloat() {
   return (
     <>
@@ -25,8 +27,16 @@ export default function ScriptBloat() {
           rel="stylesheet"
         ></link>
       </Head>
-      <h1>Hello, world!</h1>
-      <p>Welcome to Codecademy. Page go brrr</p>
+      <PageContainer title="Problem: Script Bloat 😟">
+        <p>
+          This page includes way too many script tags for its own good. They're
+          taking up all sorts of time downloading and running.
+        </p>
+        <p>
+          They don't even use <code>defer</code> or <code>async</code> tags so
+          the browser needs to run them before it can continue parsing the DOM!
+        </p>
+      </PageContainer>
     </>
   );
 }

@@ -1,6 +1,8 @@
 import dynamic from "next/dynamic";
 import React, { useState } from "react";
+import { PageContainer } from "~/components/PageContainer";
 
+// https://nextjs.org/docs/advanced-features/dynamic-import
 const ExpensiveComponent = dynamic(() =>
   import("~/components/ExpensiveComponent")
 );
@@ -9,10 +11,9 @@ export default function ComponentBloatFixed() {
   const [showing, setShowing] = useState(false);
 
   return (
-    <div>
-      <h1>Hello, world!</h1>
+    <PageContainer title="Component Bloat: Fixed 😊">
       <p>
-        Now we've fixed the page speed issues by lazy-loading the expensive
+        Now we've fixed the page load speed issues by lazy-loading the expensive
         component. No more page load time issues!
       </p>
       {showing ? (
@@ -22,6 +23,6 @@ export default function ComponentBloatFixed() {
           Show Component
         </button>
       )}
-    </div>
+    </PageContainer>
   );
 }
