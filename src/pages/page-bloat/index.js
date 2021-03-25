@@ -1,10 +1,9 @@
 import React from "react";
 
 import { Card } from "~/components/Card";
+import { Grid } from "~/components/Grid";
 import { PageContainer } from "~/components/PageContainer";
 import { getCourses, getPaths } from "~/data/api";
-
-import styles from "./styles.module.css";
 
 export default function PageSize({ courses, paths }) {
   return (
@@ -15,18 +14,18 @@ export default function PageSize({ courses, paths }) {
       </p>
       <hr />
       <h2>Paths</h2>
-      <div className={styles.grid}>
+      <Grid>
         {Object.values(paths).map((path) => (
           <Card key={path.name} {...path} />
         ))}
-      </div>
+      </Grid>
       <hr />
       <h2>Courses</h2>
-      <div className={styles.grid}>
+      <Grid>
         {Object.values(courses).map((course) => (
           <Card key={course.name} {...course} />
         ))}
-      </div>
+      </Grid>
     </PageContainer>
   );
 }

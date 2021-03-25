@@ -1,16 +1,11 @@
-import fs from "fs";
-import path from "path";
-
-const file = (name) => path.join(process.cwd(), "src/data", name);
-
 export const getCourses = async () => {
-  const catalogRaw = await fs.promises.readFile(file("courses.json"));
+  const catalogRaw = await import("~/data/courses.json");
 
-  return await JSON.parse(catalogRaw.toString());
+  return await JSON.parse(JSON.stringify(catalogRaw.default));
 };
 
 export const getPaths = async () => {
-  const catalogRaw = await fs.promises.readFile(file("paths.json"));
+  const pathsRaw = await import("~/data/paths.json");
 
-  return await JSON.parse(catalogRaw.toString());
+  return await JSON.parse(JSON.stringify(pathsRaw.default));
 };

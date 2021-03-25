@@ -1,6 +1,6 @@
 # Codecademy Catalog Companion
 
-```
+```shell
 yarn
 yarn dev
 ```
