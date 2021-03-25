@@ -7,7 +7,7 @@ const pages = {
   "Server Bloat":
     "This page has a ton of components in it and takes a long time on the server to process their data.",
   "Script Bloat":
-    "A very large amount of JavaScript is loaded in this page. One would say an excessive, unnecessary amount",
+    "A very large amount of JavaScript is loaded in this page. One would say an excessive, unnecessary amount...",
   "Component Bloat":
     "This page shows a component with a lot of dependencies: so many, in fact, that it slows down the initial page load.",
 };
@@ -27,8 +27,8 @@ export default function Home() {
           Nice.
         </p>
         <p>
-          Each of these pages have a key performance issue you can look at in
-          the _issue_ link and a fix implemented in the _fixed_ link:
+          Each of these pages have a noticeable performance issue in its{" "}
+          <em>issue</em> link with a fixed version in the <em>fixed</em> link:
         </p>
         {Object.entries(pages).map(([name, description]) => {
           const linkBase = name.toLowerCase().replace(" ", "-");
