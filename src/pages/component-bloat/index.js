@@ -7,6 +7,10 @@ export default function ComponentBloat() {
   return (
     <div>
       <h1>Hello, world!</h1>
+      <p>
+        This page shows a component with a lot of dependencies: so many, in
+        fact, that it slows down the initial page load.
+      </p>
       {showing ? (
         <ExpensiveComponent />
       ) : (

@@ -11,6 +11,10 @@ export default function ComponentBloatFixed() {
   return (
     <div>
       <h1>Hello, world!</h1>
+      <p>
+        Now we've fixed the page speed issues by lazy-loading the expensive
+        component. No more page load time issues!
+      </p>
       {showing ? (
         <ExpensiveComponent />
       ) : (

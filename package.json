@@ -11,7 +11,7 @@
     "react-syntax-highlighter": "15.4.3",
     "react-virtualized": "^9.22.3"
   },
-  "description": "Companion code for the Crashing the Codecademy Catalog talk ✨",
+  "description": "Companion code for identifying performance issues with the Codecademy Catalog ✨",
   "license": "MIT",
   "name": "codecademy-catalog-companion",
   "scripts": {
