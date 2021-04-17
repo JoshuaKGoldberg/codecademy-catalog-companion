@@ -10,6 +10,8 @@ const pages = {
     "A very large amount of JavaScript is loaded in this page. One would say an excessive, unnecessary amount...",
   "Component Bloat":
     "This page shows a component with a lot of dependencies: so many, in fact, that it slows down the initial page load.",
+  "Self DDOS":
+    "If you continuously request the same data over and over again, your users will end up spamming your services!",
 };
 
 export default function Home() {
